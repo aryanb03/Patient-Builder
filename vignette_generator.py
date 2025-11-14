@@ -12,11 +12,11 @@ from vertexai.generative_models import GenerativeModel, GenerationConfig
 import vertexai
 
 # Configuration
-PROJECT_ID = "423137735471"  # Google Cloud Project ID
-LOCATION = "us-central1"  # Default Vertex AI location
-MODEL_NAME = "8976174335140036608"  # Using deployed model ID as name when no endpoint
+PROJECT_ID = ""  # Google Cloud Project ID
+LOCATION = ""  # Default Vertex AI location
+MODEL_NAME = ""  # Using deployed model ID as name when no endpoint
 # Vertex AI Endpoint (optional)
-VERTEX_ENDPOINT = "projects/423137735471/locations/us-central1/endpoints/8976174335140036608"
+VERTEX_ENDPOINT = ""
 # Per-type token budgets to constrain output length
 MAX_TOKENS_SHORT = 800
 MAX_TOKENS_MEDIUM = 1500
